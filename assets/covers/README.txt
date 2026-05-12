@@ -1,0 +1,1 @@
+Place best-moment screenshots from each video here, then add their paths to js/data.js under the cover field, e.g. "assets/covers/sana-club.jpg". The poster text is added with HTML/CSS overlay so it remains editable.
