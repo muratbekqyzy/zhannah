@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zhannah — Filmmaker & Creative Travel Storyteller</title>
-  <meta name="description" content="Zhannah is a creative travel storyteller and filmmaker creating soft cinematic films for people, culture, travel, events, and documentary-style stories." />
+  <title>Zhannah — Filmmaker & Creative Storyteller</title>
+  <meta name="description" content="Zhannah is a filmmaker and creative storyteller based in London. She makes cinematic films for events, travel, cultural stories, and the moments worth remembering." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -18,30 +18,32 @@
   <nav class="site-nav" aria-label="Main navigation">
     <a href="#home" class="brand">Zhannah<span class="dot">.</span></a>
     <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#gear">Gear</a>
-      <a href="#contact">Contact</a>
+      <a href="#about"   data-i18n="nav.about">About</a>
+      <a href="#skills"  data-i18n="nav.skills">Skills</a>
+      <a href="#work"    data-i18n="nav.work">Work</a>
+      <a href="#gear"    data-i18n="nav.gear">Gear</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
     </div>
     <a href="#contact" class="nav-cta">Let's work</a>
     <button class="menu-btn" aria-label="Open menu"><span></span><span></span></button>
   </nav>
   <div class="mobile-menu">
-    <a href="#about">About</a>
-    <a href="#work">Work</a>
-    <a href="#gear">Gear</a>
-    <a href="#contact">Contact</a>
+    <a href="#about"   data-i18n="nav.about">About</a>
+    <a href="#skills"  data-i18n="nav.skills">Skills</a>
+    <a href="#work"    data-i18n="nav.work">Work</a>
+    <a href="#gear"    data-i18n="nav.gear">Gear</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
   </div>
 
   <header id="home" class="hero section-pad">
     <div class="hero-bg"><canvas id="heroCanvas" aria-hidden="true"></canvas></div>
     <div class="hero-copy reveal">
-      <div class="hero-kicker"><span>✦</span> Creative travel storyteller / filmmaker</div>
-      <h1>I capture moments people want to <em>remember.</em></h1>
-      <p class="hero-text">Soft cinematic films for people, places, community, culture, travel, and memory.</p>
+      <div class="hero-kicker"><span>✦</span> <span data-i18n="hero.kicker">Filmmaker & creative storyteller · London</span></div>
+      <h1 data-i18n="hero.h1">I capture moments people want to <em>remember.</em></h1>
+      <p class="hero-text" data-i18n="hero.text">Cinematic films for events, travel, cultural stories, and the in-between moments that matter most.</p>
       <div class="hero-actions">
-        <a href="#work" class="btn primary">View work</a>
-        <a href="#contact" class="btn ghost">Start a project</a>
+        <a href="#work"    class="btn primary" data-i18n="hero.view">View work</a>
+        <a href="#contact" class="btn ghost"   data-i18n="hero.start">Start a project</a>
       </div>
     </div>
     <div class="hero-card reveal">
@@ -53,14 +55,14 @@
   <main>
     <section id="about" class="about section-pad">
       <div class="section-head reveal">
-        <p class="eyebrow">about me</p>
-        <h2>Drawn to stories where culture, memory, and human emotion meet.</h2>
+        <p class="eyebrow" data-i18n="about.eyebrow">about me</p>
+        <h2 data-i18n="about.h2">I make films for people who want their story told with honesty and care.</h2>
       </div>
       <div class="about-grid">
         <div class="about-text reveal">
-          <p>I'm Zhannah, a filmmaker and creative travel storyteller. I'm drawn to documentary-style stories — especially the quiet places where memory, culture, belonging, and human psychology meet.</p>
-          <p>My parents are ethnic Kazakhs who grew up in China before returning to Kazakhstan, so questions of home, culture, and belonging have always felt close to me. That background quietly shapes the way I notice people, places, and what they carry with them.</p>
-          <p>My studies in sociology and psychology shape the way I film. Sociology taught me to notice culture and the stories people inherit. Psychology is teaching me to look closer at emotion, memory, and the inner worlds behind what we see.</p>
+          <p data-i18n="about.p1">I'm Zhannah — a filmmaker and creative storyteller based between London and Kazakhstan. I work with communities, individuals, and organisations to make documentary-style films that feel true: events, cultural moments, travel, and the stories that are hard to put into words but easy to feel on screen.</p>
+          <p data-i18n="about.p2">My parents are ethnic Kazakhs who grew up in China before returning to Kazakhstan. Questions of home, culture, and belonging have always been close to me — and that shapes the way I notice people, what they carry, and the stories worth telling.</p>
+          <p data-i18n="about.p3">My background in sociology and psychology is part of what I bring to every project. I'm trained to pay attention — to culture, to emotion, to the things happening just beneath the surface. That's what makes a film feel true rather than just nice to look at.</p>
           <div class="chips">
             <span>Kazakh</span><span>Russian</span><span>English</span><span>Turkish</span>
           </div>
@@ -70,18 +72,58 @@
         </div>
       </div>
       <div class="stats reveal">
-        <div><strong>10+</strong><span>visual films</span></div>
-        <div><strong>10</strong><span>countries visited</span></div>
-        <div><strong>4</strong><span>languages</span></div>
-        <div><strong>2024–25</strong><span>creative archive</span></div>
+        <div><strong>10+</strong><span data-i18n="stats.films">films made</span></div>
+        <div><strong>10</strong><span data-i18n="stats.countries">countries visited</span></div>
+        <div><strong>4</strong><span data-i18n="stats.languages">languages</span></div>
+        <div><strong>2024–26</strong><span data-i18n="stats.archive">creative archive</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-pad">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="skills.eyebrow">skills & services</p>
+        <h2 data-i18n="skills.h2">What I bring to every project.</h2>
+        <p class="section-intro" data-i18n="skills.intro">Whether the brief is commercial or creative, these are the capabilities I show up with.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item reveal">
+          <div class="skill-num">01</div>
+          <h3 data-i18n="s1.title">Cinematography</h3>
+          <p data-i18n="s1.desc">Camera operation, composition, and intentional movement. Every frame is considered — not just captured.</p>
+        </div>
+        <div class="skill-item reveal">
+          <div class="skill-num">02</div>
+          <h3 data-i18n="s2.title">Film Editing</h3>
+          <p data-i18n="s2.desc">Structure, pacing, and rhythm. I cut films that breathe — where nothing outstays its welcome and nothing important gets lost.</p>
+        </div>
+        <div class="skill-item reveal">
+          <div class="skill-num">03</div>
+          <h3 data-i18n="s3.title">Color Grading</h3>
+          <p data-i18n="s3.desc">Soft, intentional looks that feel emotionally consistent from the first frame to the last. Color as mood, not just correction.</p>
+        </div>
+        <div class="skill-item reveal">
+          <div class="skill-num">04</div>
+          <h3 data-i18n="s4.title">Visual Storytelling</h3>
+          <p data-i18n="s4.desc">Turning real moments, people, and places into narratives that land — for documentary, brand, travel, and social content alike.</p>
+        </div>
+        <div class="skill-item reveal">
+          <div class="skill-num">05</div>
+          <h3 data-i18n="s5.title">Documentary Direction</h3>
+          <p data-i18n="s5.desc">Creating the conditions for genuine moments on camera. Real people, real stories — shot with care and without ego.</p>
+        </div>
+        <div class="skill-item reveal">
+          <div class="skill-num">06</div>
+          <h3 data-i18n="s6.title">Brand & Commercial</h3>
+          <p data-i18n="s6.desc">Short-form films for social, events, and products. Built to perform — and crafted to feel good at the same time.</p>
+        </div>
       </div>
     </section>
 
     <section id="work" class="work section-pad">
       <div class="section-head reveal">
-        <p class="eyebrow">selected work</p>
-        <h2>Community first, then travel, portraits, and the early pieces that shaped my eye.</h2>
-        <p class="section-intro">Some pieces are earlier works. I include them not because they are perfect, but because they show my progress, vision, personality, and the beginning of my documentary/community instinct.</p>
+        <p class="eyebrow" data-i18n="work.eyebrow">selected work</p>
+        <h2 data-i18n="work.h2">Creative and commercial work — made with the same attention to detail.</h2>
+        <p class="section-intro" data-i18n="work.intro">Travel films, community documentaries, brand content, and personal films. Different formats, same instinct.</p>
       </div>
       <div class="filters reveal" id="filters"></div>
       <div class="work-grid" id="workGrid"></div>
@@ -89,9 +131,9 @@
 
     <section id="early" class="early section-pad">
       <div class="section-head reveal">
-        <p class="eyebrow">archive / 2024–25</p>
-        <h2>The beginning of how I started seeing stories.</h2>
-        <p class="section-intro">These social media works are part of my foundation. They helped me understand that I keep returning to the same things: community, culture, motherhood, migration, memory, and the emotional details people might otherwise walk past.</p>
+        <p class="eyebrow" data-i18n="early.eyebrow">archive / 2024–26</p>
+        <h2 data-i18n="early.h2">Short-form work — commercial and creative.</h2>
+        <p class="section-intro" data-i18n="early.intro">Brand films and documentary shorts, made for social. The same eye, different briefs.</p>
       </div>
       <div class="social-grid" id="socialGrid"></div>
     </section>
@@ -99,16 +141,13 @@
     <section id="gear" class="gear section-pad">
       <div class="gear-grid">
         <div class="gear-copy reveal">
-          <p class="eyebrow">tools & process</p>
-          <h2>Professional kit, but the story comes first.</h2>
-          <p>I use professional gear because I care about image, movement, light, and sound. But whenever I catch an opportunity, I'll also shoot on my phone — because I genuinely love filming, and I don't want a real moment to disappear while I'm waiting for the "perfect" setup.</p>
-          <p>There is always room for growth, and that excites me. I'm ready to take on challenges that help me hone my skills in filmmaking, education, psychology, and documentary-style storytelling.</p>
+          <p class="eyebrow" data-i18n="gear.eyebrow">tools & process</p>
+          <h2 data-i18n="gear.h2">Professional kit, but the story comes first.</h2>
+          <p data-i18n="gear.text">I work with professional gear because image, movement, light, and sound all matter. And if a real moment happens without warning, I'll use whatever I have to catch it — because the story always comes before the setup.</p>
           <ul class="gear-list">
             <li>Sony ZV-E1</li>
             <li>Sigma 24–70mm</li>
-            <li>Tamron 20mm</li>
-            <li>Amaran Ace lights ×2</li>
-            <li>Tripod</li>
+            <li>Additional lens</li>
             <li>Essential filmmaking kit</li>
           </ul>
         </div>
@@ -122,18 +161,18 @@
 
     <section id="contact" class="contact section-pad">
       <div class="contact-card reveal">
-        <p class="eyebrow" style="justify-content:center">contact</p>
-        <h2>Have a story, event, trip, or person worth remembering?</h2>
-        <p>Send a note through the form. I'm open to personal cinematic reels, event and travel recaps, short-form social content, and mini documentaries.</p>
-        <form class="contact-form" action="mailto:zm6466x@gre.ac.uk" method="post" enctype="text/plain">
-          <input type="text" name="name" placeholder="Name" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <input type="text" name="project_type" placeholder="Project type" />
-          <textarea name="message" placeholder="Tell me about your story…" rows="5" required></textarea>
-          <button class="btn primary" type="submit">Send enquiry</button>
+        <p class="eyebrow" style="justify-content:center" data-i18n="contact.eyebrow">contact</p>
+        <h2 data-i18n="contact.h2">Have a story, event, or trip worth filming?</h2>
+        <p data-i18n="contact.text">I work on personal films, event recaps, cultural stories, travel films, and mini documentaries. If you have something worth capturing — even if you're not sure how to frame it yet — I'd love to hear from you.</p>
+        <form class="contact-form" action="mailto:muratbekqyzy@gmail.com" method="post" enctype="text/plain">
+          <input type="text"  name="name"         data-i18n-ph="contact.name"    placeholder="Your name"            required />
+          <input type="email" name="email"         data-i18n-ph="contact.email"   placeholder="Your email"           required />
+          <input type="text"  name="project_type"  data-i18n-ph="contact.project" placeholder="What kind of project?" />
+          <textarea name="message" rows="5" required data-i18n-ph="contact.message" placeholder="Tell me about your story — as much or as little as you know right now."></textarea>
+          <button class="btn primary" type="submit" data-i18n="contact.send">Send a note</button>
         </form>
         <div class="contact-links">
-          <a href="mailto:zm6466x@gre.ac.uk">zm6466x@gre.ac.uk</a>
+          <a href="mailto:muratbekqyzy@gmail.com">muratbekqyzy@gmail.com</a>
           <a href="https://instagram.com/muratbekqzy" target="_blank" rel="noopener">@muratbekqzy</a>
         </div>
       </div>
@@ -141,14 +180,14 @@
   </main>
 
   <footer>
-    <span>© 2026 Zhannah</span>
-    <span>Soft cinematic stories · London / Kazakhstan</span>
+    <span data-i18n="footer.copy">© 2026 Zhannah</span>
+    <span data-i18n="footer.tagline">Cinematic stories · London / Kazakhstan</span>
   </footer>
 
   <div class="modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true">
     <div class="modal-backdrop" data-close></div>
     <div class="modal-card">
-      <button class="modal-close" data-close aria-label="Close video">Close ×</button>
+      <button class="modal-close" data-close aria-label="Close video" data-i18n="modal.close">Close ×</button>
       <div class="modal-video" id="modalVideo"></div>
       <div class="modal-copy">
         <p id="modalLabel"></p>
